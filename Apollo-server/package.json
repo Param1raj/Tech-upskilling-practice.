@@ -1,0 +1,41 @@
+{
+  "name": "Self-Assignment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/federation": "^0.38.1",
+    "@apollo/gateway": "^2.3.4",
+    "apollo-server-express": "^3.12.0",
+    "bcryptjs": "^2.4.3",
+    "class-validator": "^0.14.0",
+    "connect-ioredis": "^1.4.5",
+    "connect-redis": "^7.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "graphql": "15",
+    "ioredis": "^5.3.1",
+    "pg": "^8.10.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1",
+    "typeorm": "^0.3.12"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/connect-redis": "^0.0.20",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/express-session": "^1.17.6",
+    "@types/graphql": "^14.5.0",
+    "@types/ioredis": "^5.0.0",
+    "@types/node": "^18.14.6",
+    "nodemon": "^2.0.21",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "start": "ts-node-dev --respawn src/index.ts"
+  }
+}
